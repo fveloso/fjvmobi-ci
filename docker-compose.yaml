@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  fjvapptest:
+    image: fjvmobiapp:v1
+    build: .
+    container_name: fjvc1
+    ports:
+    - "12350:80"
